@@ -1,10 +1,12 @@
 def my_each(array)
   i = 0
-newArray= []
+  newArray= []
   while i<array.length
-    yield array[i]
+    yield 
     newArray<<i
     i+1
   end
   newArray
 end
+
+my_each(array){array|i| puts array[i]}

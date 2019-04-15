@@ -6,5 +6,4 @@ def my_each(array)
     newArray<<i
     i = i+1
   end
-  newArray
 end
